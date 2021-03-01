@@ -1,0 +1,16 @@
+INFO  01.03.2021 13:36:39  Trying to initialize repositories from: 
+    C:\Users\Admin\Documents\dxpa\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\bootstrap\author
+    C:\Users\Admin\Documents\dxpa\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\bootstrap\common
+INFO  01.03.2021 13:36:39  Repository [imaging] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [magnolia-mgnlSystem] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [website] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [users] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [resources] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [config] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [userroles] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [tasks] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [messages] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [magnolia-mgnlVersion] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [default] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [profiles] has been initialized.
+INFO  01.03.2021 13:36:39  Repository [usergroups] has been initialized.

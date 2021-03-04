@@ -1,0 +1,4 @@
+templateScript: /mtk/templates/components/link.ftl
+dialog: mtk:components/link
+
+renderType: freemarker

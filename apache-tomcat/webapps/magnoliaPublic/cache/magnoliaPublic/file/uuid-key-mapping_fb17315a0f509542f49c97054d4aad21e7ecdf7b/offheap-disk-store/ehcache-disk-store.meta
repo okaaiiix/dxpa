@@ -1,4 +1,9 @@
 #Key and value types
+<<<<<<< HEAD
+#Thu Mar 04 03:48:01 SGT 2021
+keyType=java.io.Serializable
+=======
 #Mon Mar 01 14:58:16 SGT 2021
+>>>>>>> main
 valueType=java.io.Serializable
 keyType=java.io.Serializable

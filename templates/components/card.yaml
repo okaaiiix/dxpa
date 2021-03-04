@@ -1,0 +1,4 @@
+title: card
+renderType: freemarker
+templateScript: /dxpa/templates/components/card.ftl
+dialog: dxpa:components/card

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INFO  info.magnolia.init.MagnoliaServletContextListener 01.03.2021 13:37:11 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][EnvironmentPropertySource][ServletContextPropertySource from WEB-INF/config/magnoliaPublic/magnolia.properties][ServletContextPropertySource from WEB-INF/config/magnoliaPublic/magnolia.properties][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, freemarker-support, periscope-api, speech-recognizer, ce-product-descriptor, imaging-support, publishing-core, resource-loader, config, i18n, publishing-receiver, publishing-sender, cache, content-types, periscope-core, rendering, ui-framework-core, virtual-uri, ehcache3, imaging, tasks-app, templating, ui-framework-jcr, resources, ui-framework, magnolia-resources-templating, scheduler, ui-admincentral, definitions-app, jcr-browser, lang-fi, lang-id, lang-nl, lang-no, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_TW, magnolia-usage-metrics, pages-app, publishing-app, resources-app, security-app, task-management, ui-contentapp, about-app, admincentral, content-importer, lang-cs, lang-hr, lang-pl, lang-de, lang-es, lang-fr, lang-it, lang-ja, lang-ko, lang-zh_CN, webapp]][InitPathsPropertySource]]
 INFO  info.magnolia.cms.beans.config.ConfigLoader 01.03.2021 13:37:11 -- JAAS config file set by parent container or some other application
 INFO  info.magnolia.cms.beans.config.ConfigLoader 01.03.2021 13:37:11 -- Config in use C:\Users\Admin\Documents\dxpa\apache-tomcat\webapps\magnoliaAuthor\WEB-INF\config\jaas.config
@@ -6016,3 +6017,95 @@ INFO  info.magnolia.resourceloader.classpath.service.impl.devmode.DevelopmentMod
 INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:52:43 -- Stopping module publishing-core
 INFO  info.magnolia.repository.DefaultRepositoryManager 04.03.2021 16:52:43 -- Shutting down JCR
 INFO  info.magnolia.jackrabbit.ProviderImpl 04.03.2021 16:52:43 -- Shutting down repository bound to 'magnoliaPublic'
+=======
+INFO  info.magnolia.content.observer.ContentImporterModule 04.03.2021 16:36:27 -- Content bootstrap directory is not defined with property of 'magnolia.content.bootstrap.dir' in magnolia.properties file, therefore observation is not started.
+WARN  info.magnolia.cms.util.WorkspaceObservingManager 04.03.2021 16:36:27 -- A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+WARN  info.magnolia.cms.util.DeprecationUtil 04.03.2021 16:36:27 -- A deprecated class or method was used: Use reload() instead. Check the following trace: info.magnolia.commands.CommandsManager.reload(CommandsManager.java:269), info.magnolia.cms.util.WorkspaceObservingManager.start(WorkspaceObservingManager.java:91), the full stacktrace will be logged in debug mode in the info.magnolia.cms.util.DeprecationUtil category.
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Catalog [default] registered: [info.magnolia.commands.MgnlCatalog: unpublish, publish, activate, deactivate]
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Catalog [versioned] registered: [info.magnolia.commands.MgnlCatalog: unpublish, publish, activate, deactivate]
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Catalog [cache] registered: [info.magnolia.commands.MgnlCatalog: flushNamedCache, flushByUUID, flushAll]
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Catalog [resources] registered: [info.magnolia.commands.MgnlCatalog: versionResources]
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [importZip] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [cleanTempFiles] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [exportYaml] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [import] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [markAsDeleted] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [restorePreviousVersion] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [export] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [delete] to already registered catalog [default]...
+INFO  info.magnolia.commands.CommandsManager 04.03.2021 16:36:27 -- Adding new command [configScan] to already registered catalog [default]...
+DEBUG class org.ehcache.core.Ehcache-defaultPageCache 04.03.2021 16:36:28 -- Initialize successful.
+DEBUG class org.ehcache.core.Ehcache-uuid-key-mapping 04.03.2021 16:36:28 -- Initialize successful.
+INFO  info.magnolia.cms.i18n.DefaultMessagesManager 04.03.2021 16:36:28 -- Loading i18n configuration - /server/i18n/system
+INFO  info.magnolia.cms.i18n.DefaultMessagesManager 04.03.2021 16:36:28 -- Registering event listener for i18n
+INFO  info.magnolia.cms.beans.config.MIMEMapping 04.03.2021 16:36:28 -- Initializing MIMEMapping from /server/MIMEMapping
+INFO  info.magnolia.cms.beans.config.MIMEMapping 04.03.2021 16:36:28 -- Registering event listener for MIMEMapping
+INFO  info.magnolia.cms.beans.config.ConfigLoader 04.03.2021 16:36:28 -- Configuration loaded (took 14 seconds)
+INFO  info.magnolia.cms.filters.FilterManagerImpl 04.03.2021 16:36:28 -- Initializing filters
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [context]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [contentType]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [multipartRequest]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [unicodeNormalization]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [csrfTokenSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [login]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [publishing]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [gzip]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [channel]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [logout]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [securityCallback]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [csrfSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [uriSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [cors]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [range]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [i18n]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [cache]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [virtualURI]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [servlets]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [Wrapper for ImagingServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [Wrapper for ResourcesServlet servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:28 -- Initializing filter [Wrapper for Admincentral-m5 servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [Wrapper for Admincentral servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [Wrapper for VaadinStatic servlet]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [cms]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [repositoryMapping]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [contentSecurity]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [aggregator]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [modelExecution]
+INFO  info.magnolia.cms.filters.CompositeFilter 04.03.2021 16:36:29 -- Initializing filter [rendering]
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:31 -- Stopping module content-importer
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:31 -- Stopping module task-management
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:31 -- Stopping module magnolia-usage-metrics
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:31 -- Stopping module ui-admincentral
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:31 -- Stopping module scheduler
+INFO  info.magnolia.module.scheduler.SchedulerModule 04.03.2021 16:38:32 -- Waiting up to 30 seconds for scheduled jobs to stop...
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module ui-framework
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module imaging
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module virtual-uri
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module ui-framework-core
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module rendering
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module periscope-core
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module content-types
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module cache
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [defaultPageCache:resources:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [defaultPageCache:userroles:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [defaultPageCache:website:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [defaultPageCache:config:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [defaultPageCache:default:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [defaultPageCache:tasks:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [defaultPageCache:usergroups:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [uuid-key-mapping:config:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [uuid-key-mapping:userroles:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [uuid-key-mapping:website:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [uuid-key-mapping:resources:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [uuid-key-mapping:default:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [uuid-key-mapping:tasks:/] 
+INFO  info.magnolia.module.cache.AbstractListeningFlushPolicy 04.03.2021 16:38:33 -- Unregistering event listener mapped to key [uuid-key-mapping:usergroups:/] 
+DEBUG class org.ehcache.core.Ehcache-defaultPageCache 04.03.2021 16:38:33 -- Close successful.
+DEBUG class org.ehcache.core.Ehcache-uuid-key-mapping 04.03.2021 16:38:33 -- Close successful.
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module config
+INFO  info.magnolia.dirwatch.DirectoryWatcherService 04.03.2021 16:38:33 -- DirectoryWatcherService terminated.
+INFO  info.magnolia.resourceloader.classpath.service.impl.devmode.DevelopmentModeClasspathService 04.03.2021 16:38:33 -- DevelopmentModeClasspathService terminated.
+INFO  info.magnolia.module.ModuleManagerImpl 04.03.2021 16:38:33 -- Stopping module publishing-core
+INFO  info.magnolia.repository.DefaultRepositoryManager 04.03.2021 16:38:33 -- Shutting down JCR
+INFO  info.magnolia.jackrabbit.ProviderImpl 04.03.2021 16:38:33 -- Shutting down repository bound to 'magnoliaPublic'
+>>>>>>> main

@@ -1,0 +1,4 @@
+title: card
+renderType: freemarker
+templateScript: /hello-magnolia/templates/components/card.ftl
+dialog: hello-magnolia:components/card

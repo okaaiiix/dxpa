@@ -1,0 +1,8 @@
+form:
+  properties:
+    title:
+      $type: textField
+      i18n: true
+    windowTitle:
+      $type: textField
+      i18n: true

@@ -1,0 +1,39 @@
+# This defintion is shared by some components and is included e.g. in link.yaml and teaser.yaml
+name: linkType
+class: info.magnolia.ui.form.field.definition.SwitchableFieldDefinition
+required: true
+selectionType: radio
+type: String
+options:
+  - name: page
+    selected: true
+    value: page
+  - name: external
+    selected: false
+    value: external
+  - name: download
+    selected: false
+    value: download
+fields:
+  - name: page
+    class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+    targetWorkspace: website
+    appName: pages
+    identifierToPathConverter:
+      class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+    type: String
+    required: false
+  - name: external
+    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+    type: String
+    required: false
+  - name: download
+    class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+    targetWorkspace: dam
+    appName: assets
+    identifierToPathConverter:
+      class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+    contentPreviewDefinition:
+      contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+    type: String
+    required: false

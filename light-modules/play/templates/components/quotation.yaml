@@ -1,0 +1,4 @@
+title: quotation
+renderType: freemarker
+templateScript: /play/templates/components/quotation.ftl
+dialog: play:components/quotation

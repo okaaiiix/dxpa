@@ -1,0 +1,9 @@
+_dev/
+test/
+node_modules/
+
+.idea
+.DS_Store
+.travis.yml
+.babelrc
+npm-debug.log

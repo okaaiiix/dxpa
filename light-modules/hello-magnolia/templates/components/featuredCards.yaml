@@ -1,0 +1,12 @@
+dialog: hello-magnolia:components/featuredCards
+templateScript: /hello-magnolia/templates/components/featuredCards.ftl
+renderType: freemarker
+
+parameters:
+  headingElement: h2
+
+areas:
+  cards:
+    availableComponents:
+      featuredCard:
+        id: hello-magnolia:components/featuredCard

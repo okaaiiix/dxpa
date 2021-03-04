@@ -23,6 +23,14 @@ form:
           type: Boolean
           label:  hide In Navigation
           buttonLabel: hide
+        - name: image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
     - name: tabMeta
       label: Meta Data
       fields:
@@ -36,7 +44,7 @@ form:
           i18n: true
           label: description
           rows: 5
-
+    
 actions:
   commit:
     class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition

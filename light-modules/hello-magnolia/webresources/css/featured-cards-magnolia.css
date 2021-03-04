@@ -1,0 +1,19 @@
+/* Featured cards component */
+.featured-cards {}
+
+.featured-cards__title {}
+
+.featured-cards__text {}
+
+.featured-cards__grid {}
+
+.featured-card {
+    float: left;
+    padding: 1em 0 0 1em;
+}
+
+.featured-card__title {}
+
+.featured-card__image {}
+
+.featured-card__abstract {}

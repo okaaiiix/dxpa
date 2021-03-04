@@ -6,7 +6,7 @@ form:
     - name: tabMain
       label: Main
       fields:
-
+        
         - name: title
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
           label: Title
@@ -21,41 +21,12 @@ form:
           contentPreviewDefinition:
             contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
 
-        - name: caption
-          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
-          label: Image Caption
-
         - name: desc
           class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
           label: Description
 
-        - name: internalLink
-          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
-          targetWorkspace: website
-          appName: pages
-          label: Select page
-          identifierToPathConverter:
-            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
 
-        - name: categories
-          class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
-          label: Select category
-          field:
-            name: linkField
-            class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
-            targetWorkspace: category
-            appName: categories
-            identifierToPathConverter:
-              class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
-
-        - name: option
-          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
-          label: Option
-          options:
-            - label: A
-              value: a
-            - label: B
-              value: b
+       
 
 actions:
   commit:

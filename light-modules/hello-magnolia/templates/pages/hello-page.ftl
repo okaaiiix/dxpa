@@ -28,7 +28,9 @@
   <body class="hello-page ${cmsfn.language()}">
 
     <div class="container">
-      <h1>hello-page works!</h1>
+      <h1>Card</h1>
+      <div class="main">
+         [@cms.area name="main"/]
     </div>
 
     [#-- use resfn to load all js which matches the globbing pattern or link resources manually or via theme --]

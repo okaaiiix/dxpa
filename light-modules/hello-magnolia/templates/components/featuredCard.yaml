@@ -1,0 +1,6 @@
+dialog: hello-magnolia:components/featuredCard
+templateScript: /hello-magnolia/templates/components/featuredCard.ftl
+renderType: freemarker
+
+parameters:
+  imageVariation: "240"

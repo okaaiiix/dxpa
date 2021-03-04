@@ -1,5 +1,5 @@
 title: MainPageTemplate
-templateScript: /light-modules/templates/pages/MainPageTemplate.ftl
+templateScript: /templates/pages/MainPageTemplate.ftl
 renderType: freemarker
 dialog: light-modules:pages/MainPageTemplate
 visible: true

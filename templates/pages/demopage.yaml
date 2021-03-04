@@ -1,0 +1,6 @@
+title: demopage
+templateScript: /dxpa/templates/pages/demopage.ftl
+renderType: freemarker
+dialog: dxpa:pages/demopage
+visible: true
+

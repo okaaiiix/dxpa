@@ -1,0 +1,6 @@
+title: Page1
+templateScript: /dxpa/templates/pages/Page1.ftl
+renderType: freemarker
+dialog: dxpa:pages/Page1
+visible: true
+

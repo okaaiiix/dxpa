@@ -1,0 +1,11 @@
+title: hello-page
+templateScript: /hello-magnolia/templates/pages/hello-page.ftl
+renderType: freemarker
+dialog: hello-magnolia:pages/hello-page
+visible: true
+
+areas:
+  main:
+    availableComponents:
+      card:
+        id: hello-magnolia:components/card

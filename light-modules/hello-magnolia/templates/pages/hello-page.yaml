@@ -9,3 +9,5 @@ areas:
     availableComponents:
       card:
         id: hello-magnolia:components/card
+      dropdown:
+        id: hello-magnolia:components/dropdown

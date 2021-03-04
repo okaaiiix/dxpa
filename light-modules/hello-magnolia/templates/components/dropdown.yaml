@@ -1,0 +1,4 @@
+title: dropdown
+renderType: freemarker
+templateScript: /hello-magnolia/templates/components/dropdown.ftl
+dialog: hello-magnolia:components/dropdown

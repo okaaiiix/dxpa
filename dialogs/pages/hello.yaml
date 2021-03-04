@@ -1,0 +1,20 @@
+form:
+  label: Page properties
+  tabs:
+    - name: tabMain
+      label: hello
+      fields:
+        - name: title
+          fieldType: text
+          i18n: true
+          label: title
+        - name: windowTitle
+          fieldType: text
+          i18n: true
+          label: window title
+ 
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

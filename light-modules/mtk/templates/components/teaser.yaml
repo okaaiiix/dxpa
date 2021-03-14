@@ -1,8 +1,0 @@
-templateScript: /mtk/templates/components/teaser.ftl
-dialog: mtk:components/teaser
-
-renderType: freemarker
-parameters:
-  divClass: teaser
-  divIDPrefix: teaser
-  headlineLevel: h2

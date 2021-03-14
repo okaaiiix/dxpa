@@ -1,8 +1,0 @@
-form:
-  properties:
-    quotation:
-      $type: richTextField
-      i18n: true
-    citedPerson:
-      $type: textField
-      i18n: true

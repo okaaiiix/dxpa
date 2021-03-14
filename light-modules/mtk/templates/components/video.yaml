@@ -1,3 +1,0 @@
-templateScript: /mtk/templates/components/video.ftl
-dialog: mtk:components/video
-renderType: freemarker

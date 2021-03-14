@@ -1,3 +1,0 @@
-templateScript: /mtk/templates/components/textImage.ftl
-dialog: mtk:components/textImage
-renderType: freemarker

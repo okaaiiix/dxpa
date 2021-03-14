@@ -1,6 +1,0 @@
-title: test
-templateScript: /hello-magnolia/templates/pages/test.ftl
-renderType: freemarker
-dialog: hello-magnolia:pages/test
-visible: true
-

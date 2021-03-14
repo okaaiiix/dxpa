@@ -1,3 +1,0 @@
-renderType: freemarker
-dialog: mtk:pages/redirect
-templateScript: /mtk/templates/pages/redirect.ftl

@@ -1,3 +1,0 @@
-templateScript: /mtk/templates/components/html.ftl
-dialog: mtk:components/html
-renderType: freemarker

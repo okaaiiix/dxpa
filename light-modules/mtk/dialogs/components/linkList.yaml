@@ -1,0 +1,24 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: subtitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+          type: String
+        - name: listStyle
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: bullet
+              value: bullet
+              selected: true
+            - name: ordered
+              value: ordered
+            - name: inline
+              value: inline
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

@@ -1,0 +1,34 @@
+form:
+  tabs:
+    - name: tabRedirect
+      fields:
+        - name: redirectStatus
+          fieldType: select
+          options:
+            - name: 301
+              selected: true
+            - name: 302
+        - name: redirectUrlType
+          fieldType: switchable
+          options:
+            - name: internal
+              selected: true
+            - name: external
+          fields:
+            - name: internal
+              fieldType: link
+              targetWorkspace: website
+              appName: pages-app
+            - name: external
+              fieldType: text
+              validators:
+                - name: url
+                  class: info.magnolia.ui.form.validator.definition.RegexpValidatorDefinition
+                  pattern: ^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]
+                  errorMessage: 'Please enter a valid URL address'
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

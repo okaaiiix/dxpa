@@ -394,12 +394,12 @@
     text-align: left;
   }
   .v3_3 {
-    width: 157px;
-    height: 128px;
-    background:  rgba(122,143,255,1);
+    max-width: 100%;
+    height: auto;
+    display: block;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     opacity: 1;
     position: absolute;
     top: 54px;

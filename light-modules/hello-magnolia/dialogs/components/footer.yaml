@@ -53,11 +53,12 @@ form:
       images: true
       description: Add a Link. 
 
-    ImageText:
+    imageLink:
       label: Type Image Link
       $type: textField
-      images: true
+      description: Choose an Image from the Assets App.
 
+    
     
   
  

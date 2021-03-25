@@ -1,0 +1,4 @@
+title: Footer
+renderType: freemarker
+dialog: hello-magnolia:components/footer
+templateScript: /hello-magnolia/templates/components/footer.ftl

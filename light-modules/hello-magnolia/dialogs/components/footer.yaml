@@ -1,0 +1,63 @@
+form:
+  properties:
+
+    name:
+      $type: textField
+      label: name
+      description: Enter Company Name.
+ 
+    title:
+      $type: textField
+      label: First Title
+      description: Define the title.
+      
+    title1text:
+      $type: richTextField
+      label: Create links
+      height: 500
+      tables: true
+      source: true
+      images: true
+      description: Add a Link.
+
+    title2:
+      $type: textField
+      label: First Title
+      description: Define the title.
+      
+    title2text:
+      $type: richTextField
+      label: Create links
+      height: 500
+      tables: true
+      source: true
+      images: true
+      description: Add a Link.  
+
+    contactus1:
+      $type: textField
+      label: write number
+      description: Add a Link.
+
+    contactus2:
+      $type: textField
+      label: write number
+      description: Add a Link.
+    
+    social_text:
+      $type: richTextField
+      label: Create links
+      height: 500
+      tables: true
+      source: true
+      images: true
+      description: Add a Link. 
+
+    ImageText:
+      label: Type Image Link
+      $type: textField
+      images: true
+
+    
+  
+ 

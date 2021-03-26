@@ -1,0 +1,24 @@
+form:
+  properties:
+
+    title:
+      $type: textField
+      label: First Title
+      description: Define the title.
+      
+    text:
+      $type: richTextField
+      label: Add text.
+      height: 500
+      description: Add text.
+      
+    link:
+      $type: textField
+      label: Create links
+      description: create link to page.
+
+    image:
+      $type: textField
+      label: Image Background
+      description: create image link.
+

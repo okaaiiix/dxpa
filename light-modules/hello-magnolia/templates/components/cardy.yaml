@@ -1,0 +1,4 @@
+title: Cardy
+renderType: freemarker
+dialog: hello-magnolia:components/cardy
+templateScript: /hello-magnolia/templates/components/cardy.ftl

@@ -28,10 +28,11 @@
   <body class="hello-page ${cmsfn.language()}">
 
     <div class="container">
-      <h1>Card</h1>
+      <h1>Hello World</h1>
       <div class="main">
          [@cms.area name="main"/]
     </div>
+    
 
     [#-- use resfn to load all js which matches the globbing pattern or link resources manually or via theme --]
     [#-- ${resfn.js(["/hello-magnolia/.*js"])!} --]
@@ -39,4 +40,3 @@
 </html>
 
 
-[@cms.area name="main"/]

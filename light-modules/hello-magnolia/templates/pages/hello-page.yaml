@@ -8,12 +8,12 @@ areas:
   main:
     type: list
     availableComponents:
-      card:
-        id: hello-magnolia:components/card
-      featuredCards:
-        id: hello-magnolia:components/featuredCards
       footer:
         id: hello-magnolia:components/footer
       cardy:
         id: hello-magnolia:components/cardy
+      masthead:
+        id: hello-magnolia:components/masthead
+      
+
       

@@ -1,0 +1,4 @@
+title: MastHead
+renderType: freemarker
+dialog: hello-magnolia:components/masthead
+templateScript: /hello-magnolia/templates/components/masthead.ftl

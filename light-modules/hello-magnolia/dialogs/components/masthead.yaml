@@ -1,0 +1,18 @@
+form:
+  properties:
+
+    quote:
+      $type: textField
+      label: Quote
+      description: Write quote.
+
+    mission:
+      $type: richTextField
+      label: Mission
+      description: write mission.
+    
+    
+    
+    
+  
+ 

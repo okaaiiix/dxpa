@@ -11,6 +11,4 @@ areas:
         id: hello-magnolia:components/card
       featuredCards:
         id: hello-magnolia:components/featuredCards
-      button:
-        id: hello-magnolia:components/button
       

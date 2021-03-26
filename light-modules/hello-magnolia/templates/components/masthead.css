@@ -374,8 +374,8 @@ body {
     width: 95px;
     color: rgba(255, 255, 255, 1);
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 3px;
+    left: 0px;
     font-family: Roboto;
     font-weight: Bold;
     font-size: 17px;
@@ -419,8 +419,8 @@ body {
     width: 90px;
     color: rgba(255, 255, 255, 1);
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 3px;
+    left: 0px;
     font-family: Roboto;
     font-weight: Bold;
     font-size: 17px;

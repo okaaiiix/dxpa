@@ -47,12 +47,12 @@
     <div class="v1_38">
       <div class="v1_66">
         <div class="v1_69">
-          <span class="v1_70">Try For Free</span>
+          <span class="v1_70"><a href="${content.link!}">Try For Free</span>
         </div>
       </div>
       <div class="v1_61">
         <div class="v1_64">
-          <span class="v1_65">Learn More</span>
+          <span class="v1_65"><a href="${content.link2!}">Learn More</span>
         </div>
       </div>
     </div>

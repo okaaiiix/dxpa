@@ -10,6 +10,19 @@ form:
       $type: richTextField
       label: Mission
       description: write mission.
+
+    link:
+      $type: textField
+      label: Link 1
+      description: write link.
+
+    link2:
+      $type: textField
+      label: Link 2
+      description: write link.
+
+
+    
     
     
     
